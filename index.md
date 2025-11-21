@@ -73,9 +73,29 @@ Key pieces:
 - Star schema creation (dimensions + facts)  
 - Data-governance layer (access patterns, schemas, and roles)
 
-```sql
--- Example exploration: non-null customer orders
-SELECT *
-FROM order_header
-WHERE customer_id IS NOT NULL
-LIMIT 1000;
+👉 **Browse full SQL folder:**  
+[View all Snowflake SQL scripts](sql/)
+
+👉 **Direct links to individual SQL files:**  
+- [1-data-profiling.sql](sql/1-data-profiling.sql)  
+- [2-marketplace-data.sql](sql/2-marketplace-data.sql)  
+- [3-create-star-schema.sql](sql/3-create-star-schema.sql)  
+- [4-data-governance.sql](sql/4-data-governance.sql)  
+- [tasty-bytes-intro.sql](sql/tasty-bytes-intro.sql)
+
+---
+
+## Dashboards & Insights
+
+This Power BI **Order Summary** dashboard sits on top of the `DT_FACT_ORDER_AGG` fact table and the conformed dimensions.
+
+![Order Summary Dashboard](assets/screenshots/powerbi_dashboard.jpg)
+
+From this visual you can quickly see:
+
+- How **sales distribution** shifts across global regions (APAC, EMEA, North America)
+- The **top cities** and how much they contribute to total order volume
+- Which **brands** dominate revenue and how they compare side-by-side
+- Weekly demand patterns, showing which **days of the week** have the highest activity
+- Clear **hour-of-day peaks**, highlighting lunch and evening rush periods
+- Whether demand is spread across time or concentrated in specific peak windows
