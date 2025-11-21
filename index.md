@@ -1,5 +1,5 @@
 ---
-title: Snowflake + Power BI: Tasty Bytes Analytics
+title: "Snowflake + Power BI: Tasty Bytes Analytics"
 ---
 
 # Tasty Bytes – End-to-End Analytics with Snowflake & Power BI
@@ -28,7 +28,7 @@ It’s the kind of work I’d do as a data analyst or analytics engineer: unders
 
 This is the high-level flow from raw marketplace data to analytics:
 
-![Snowflake lineage](assets/diagrams/snowflake_lineage.png)
+![Snowflake lineage](assets/diagrams/snowflake_lineage.jpg)
 
 1. Raw marketplace tables (FRANCHISE, TRUCK, LOCATION, MENU, CUSTOMER_LOYALTY, ORDER_HEADER, ORDER_DETAIL).  
 2. Dynamic tables to build dimensions:  
@@ -45,7 +45,7 @@ This is the high-level flow from raw marketplace data to analytics:
 
 Here’s the analytical model exposed to Power BI:
 
-![Star schema](assets/diagrams/powerbi_star_schema.png)
+![Star schema](assets/diagrams/powerbi_star_schema.jpg)
 
 At the centre is `DT_FACT_ORDER_AGG`, surrounded by:
 
