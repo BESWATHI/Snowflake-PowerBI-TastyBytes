@@ -74,14 +74,7 @@ Key pieces:
 - Data-governance layer (access patterns, schemas, and roles)
 
 👉 **Browse full SQL folder:**  
-[View all Snowflake SQL scripts](sql/)
-
-👉 **Direct links to individual SQL files:**  
-- [1-data-profiling.sql](sql/1-data-profiling.sql)  
-- [2-marketplace-data.sql](sql/2-marketplace-data.sql)  
-- [3-create-star-schema.sql](sql/3-create-star-schema.sql)  
-- [4-data-governance.sql](sql/4-data-governance.sql)  
-- [tasty-bytes-intro.sql](sql/tasty-bytes-intro.sql)
+[View all Snowflake SQL scripts](https://github.com/BESWATHI/Snowflake-PowerBI-TastyBytes/tree/main/sql)
 
 ---
 
